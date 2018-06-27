@@ -17,8 +17,7 @@ With GraphQL we create a data model, or Schema
 
 - `express`
 - `body-parser`
-- `axios`   
-- `cors`
+- `axios`
 - `express-graphql`: Creates an Express server that can run a GraphQL API
 - `graphql`: Gives you the tools to create a schema and mutations
 
