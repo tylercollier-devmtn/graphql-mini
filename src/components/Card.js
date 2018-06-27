@@ -8,9 +8,6 @@ export default class Card extends Component {
         <p>{this.props.name}</p>
         <p>{this.props.height}</p>
         <br />
-        <h4>Homeworld</h4>
-        <p>{this.props.homeWorld.name}</p>
-        <br />
         <h4>Number of Films</h4>
         <p>{this.props.films.length}</p>
         <br />
