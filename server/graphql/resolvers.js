@@ -8,7 +8,17 @@ module.exports = {
     }),
     person: (parent, args) => {
       const p = characters.find(x => x.id === args.id);
-      return { ...p, homeWorld: axios.get(p.homeworld).then(response => response.data)}
+      return p
+    }
+  },
+  HomeWorld: {
+    // name: () => 'x',
+    climate: () => 'y',
+    population: () => 5
+  },
+  Person: {
+    homeworld(person) {
+      return axios.get(person.homeworld).then(r => r.data)
     }
   }
 }
