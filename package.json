@@ -5,6 +5,7 @@
   "main": "server",
   "dependencies": {
     "apollo-server": "^2.2.3",
+    "axios": "^0.18.0",
     "graphql": "^14.0.2",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
