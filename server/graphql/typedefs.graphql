@@ -1,0 +1,16 @@
+type Person {
+  id: Int
+  name: String
+  gender: String
+  homeWorld: HomeWorld
+}
+
+type HomeWorld {
+  name: String
+  climate: String
+  population: Int
+}
+
+type Query {
+  people: [Person]
+}
